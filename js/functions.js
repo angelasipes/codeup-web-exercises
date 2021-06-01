@@ -7,16 +7,20 @@
  *
  * Example
  * sayHello("codeup") // returns "Hello, codeup!"
- */function sayHello(name) {
+
+ *
+ * @param name*
+
+ function sayHello(name)
      return "Hello," + name;
 
-}
 
 
 
 
-/**
- *
+
+
+ /**
  * Call the function 'sayHello' and pass your name as a string literal argument.
  * Store the result of the function call in a variable named 'helloMessage'.
  *
@@ -25,6 +29,8 @@
 
 var helloMessage= sayHello ("Angela");
 console.log(helloMessage);
+
+
 /**
  *
  * Store your name as a string in a variable named 'myName', and pass that
@@ -33,12 +39,15 @@ console.log(helloMessage);
  */
 
 var myName = "Angela";
+
 console.log(sayHello(myName));
+
 
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
 var random = Math.floor((Math.random() * 3) + 1);
+
 
 /**
  * TODO:
@@ -69,7 +78,10 @@ var random = Math.floor((Math.random() * 3) + 1);
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
-
+function calculateTip (num1, num2) {
+    return num1 = num2; //num1 = percentage num2 = total bill
+}
+console.log
 /**
  * TODO:
  * Use prompt and alert in combination with your calculateTip function to
